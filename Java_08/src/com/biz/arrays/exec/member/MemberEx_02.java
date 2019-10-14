@@ -1,0 +1,15 @@
+package com.biz.arrays.exec.member;
+
+import com.biz.arrays.service.MemberService;
+
+public class MemberEx_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MemberService ms = new MemberService();
+		
+		ms.memberListView();
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.biz.jack.exec;
+
+import com.biz.jack.service.GameServiceV1;
+
+public class JackEx_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		GameServiceV1 gs = new GameServiceV1();
+		
+		while(true) {
+			 if(!gs.gameStart("고니")) 
+				 System.out.println("Game over");
+				 break;	
+		}
+		
+
+	}
+
+}
